@@ -42,7 +42,7 @@ public class SachGiaoKhoa extends Sach {
 	@Override
 	public String toString() {
 		String s1 = "";
-		s1 += s1.format("%10s | %10s | ", getTrangSachChuoi(), getThanhTien());
+		s1 += String.format("%10s | %10s | ", getTrangSachChuoi(), getThanhTien());
 		return super.toString() + s1;
 	}
 }
